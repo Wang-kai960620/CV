@@ -11,6 +11,7 @@ a {
   border-radius: 5px;
   border: 1px solid #ccc;
 }
+
 h3,
 h2 {
   color: #000;
@@ -92,6 +93,8 @@ strong {
 .aside section > span {
   grid-column: 1;
   grid-row: 1;
+  display: flex;
+  justify-content: center;
 }
 
 .aside section > h2 {
@@ -136,11 +139,12 @@ strong {
   width: 1em;
   height: 1em;
   margin-right: 10px;
+  fill: #333333;
 }
 
 .aside section img {
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
 }
 
 .main > .title {
